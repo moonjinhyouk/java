@@ -6,16 +6,17 @@ public class p110 {
 	public static void main(String [] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		final int EXCHANGE_RATE = 1200;
+	
 		
-		System.out.println("1$는 1200원입니다.");
 		
-		System.out.print("달러를 입력하세요:");
-		int dollars = scanner.nextInt();
+		System.out.print("태어난 년도를 입력하세요:");
+		int year = scanner.nextInt();
+		System.out.print("태어난 월를 입력하세요:");
+		int month = scanner.nextInt();
+		System.out.print("태어난 일를 입력하세요:");
+		int day = scanner.nextInt();
 		
-		int won = dollars*EXCHANGE_RATE;
-		
-		System.out.println(dollars+"$는"+won+"원입니다.");
+		System.out.print("생일은"+year+"년"+month+"월"+day+"일");
 		
 	}
 }
